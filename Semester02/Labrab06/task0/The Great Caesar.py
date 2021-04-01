@@ -24,7 +24,8 @@ print(cleaner(code(alph, line, key)))
 # Более читаемая версия первой функции(если так вообще можно выразиться)
 # def code(alph, line, key):
 #     return([
-#         [alph[x + key] 
+#         [
+#         alph[x + key] 
 #         for x in range(len(alph)) if line[i] == alph[x]
 #         ]
 #         for i in range(len(line))
