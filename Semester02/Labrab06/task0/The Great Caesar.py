@@ -1,3 +1,6 @@
+'''
+Кодируем информацию как Цезарь
+'''
 def code(alph, line, key):
     return ([[alph[x + key] for x in range(len(alph)) if line[i] == alph[x]] for i in range(len(line))])
 
