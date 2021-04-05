@@ -1,3 +1,6 @@
+'''
+Меняет градиент картинки
+'''
 from PIL import Image
 
 img = Image.open("1white.jpg")
