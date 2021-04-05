@@ -1,3 +1,6 @@
+'''
+Создает график какой либо функции ver.2
+'''
 import matplotlib.pyplot as plt
 import math
 
