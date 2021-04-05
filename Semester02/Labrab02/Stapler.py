@@ -1,3 +1,6 @@
+'''
+Берём Core.html и вставляем в него данные какого то текстового файла
+'''
 poem = open('Mikhail Lermontov.txt', encoding='utf-8')
 core = open('Core.html', 'r')
 
